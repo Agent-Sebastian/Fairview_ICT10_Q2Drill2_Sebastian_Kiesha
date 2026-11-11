@@ -26,6 +26,4 @@ def add_members (e):
 
 
 
-    document.getElementById('output1').innerHTML = f'All members: <br> {member_list}'   #shows the sorted / alphabetical list
-    
-    display(f'Total members: {total_members}', target="output1")  #the len
+    display(f'Total members: {total_members}<br><br>All members:<br>{member_list}', target="output1")
