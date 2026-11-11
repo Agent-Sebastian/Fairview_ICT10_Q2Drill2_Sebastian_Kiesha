@@ -9,8 +9,8 @@ def add_members (e):
 
 
 
-    input_memfn = document.getElementById('input1').value()   #first name
-    input_memln = document.getElementById('input2').value()   #last name
+    input_memfn = document.getElementById('input1').value   #first name
+    input_memln = document.getElementById('input2').value   #last name
 
     new_studentname = input_memfn + " " + input_memln   #combines the names with a space inbetween
     new_student = {new_studentname} #proper name
